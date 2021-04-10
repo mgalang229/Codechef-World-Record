@@ -20,7 +20,7 @@ int main() {
 		};
 		// follow the formula, time = (distance / speed)
 		// divide 100 (m) by 'k1' (m / s), and compare if it's STRICLY less than 9.58
-		// also, don't forget to round the time two decimal places
+		// also, don't forget to round the time to two decimal places
 		cout << (RoundTwoDecimalPlaces(100 / k1) < 9.58 ? "YES" : "NO") << '\n';
 	}	
 	return 0;
